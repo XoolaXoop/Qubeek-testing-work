@@ -1,10 +1,8 @@
-<script setup>
-import FileInput from './components/FileInput.vue';
-</script>
+<script setup></script>
 
 <template>
   <div class="flex flex-col items-center justify-center w-screen h-screen">
-    <FileInput />
+    <router-view></router-view>
   </div>
 </template>
 
